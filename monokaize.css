@@ -1,0 +1,58 @@
+/*
+    Monokaize your plain HTML for great good!
+
+    Hey there! Looking at the source, are we? Hand-baked by veeti "walther" haapsamo 2014
+    If you're actually interested in this stuff, might as well see
+    https://github.com/Walther/monokaize ;)
+*/
+
+/* color palette - Monokai <3
+
+#272822 dgrey
+#ffffff white
+
+#101010 dark
+#960050 pink
+#66aa11 green
+#c47f2c orange
+#30309b blue
+#7e40a5 purple
+#89b6e2 blue2
+#9999aa grey
+#75715e warmgrey
+#ff0090 hotpink
+#80ff00 lgreen
+#ffba68 lorange
+#5f5fee lblue
+#bb88dd lpurple
+#4eb4fa lblue2
+
+*/
+
+/* fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,300,800);
+
+/* begin elements */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    min-width: 320px;
+    font-size: 16pt;
+    color: #fff;
+    height: 100%;
+    background: #272822;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+a {
+    color: #4eb4fa;
+}
