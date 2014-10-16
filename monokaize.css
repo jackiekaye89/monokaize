@@ -47,6 +47,10 @@ html, body {
     background: #272822;
 }
 
+body {
+    padding: 10px;
+}
+
 h1, h2, h3, h4, h5, h6, a {
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
@@ -56,3 +60,17 @@ h1, h2, h3, h4, h5, h6, a {
 a {
     color: #4eb4fa;
 }
+
+a:active,
+a:visited {
+    color: #bb88dd;
+}
+
+::-moz-selection {
+    background: #9999aa;
+}
+
+::selection {
+    background: #9999aa;
+}
+
