@@ -44,7 +44,16 @@ html, body {
     font-size: 16pt;
     color: #fff;
     height: 100%;
+    background: #272822 !important;
+}
+
+*,
+#content,
+.content,
+#container,
+.container {
     background: #272822;
+    color: #fff
 }
 
 body {
@@ -55,15 +64,16 @@ h1, h2, h3, h4, h5, h6, a {
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
     margin: 0;
+    color: #fff
 }
 
 a {
-    color: #4eb4fa;
+    color: #4eb4fa !important;
 }
 
 a:active,
 a:visited {
-    color: #bb88dd;
+    color: #bb88dd !important;
 }
 
 ::-moz-selection {
