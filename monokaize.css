@@ -51,7 +51,10 @@ html, body {
 #content,
 .content,
 #container,
-.container {
+.container,
+th,
+td,
+p {
     background: #272822;
     color: #fff
 }
