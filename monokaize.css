@@ -55,8 +55,8 @@ html, body {
 th,
 td,
 p {
-    background: #272822;
-    color: #fff
+    background: #272822 !important;
+    color: #fff !important;
 }
 
 body {
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6, a {
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
     margin: 0;
-    color: #fff
+    color: #fff !important;
 }
 
 a {
